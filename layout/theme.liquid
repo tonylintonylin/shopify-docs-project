@@ -102,7 +102,9 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  
+{% comment %} PRODUCT PAGE SLIDER APP CODE START {% endcomment %}{% render 'pmslider_inline.liquid' %}{% comment %} PRODUCT PAGE SLIDER APP CODE END {% endcomment %}
+</head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
